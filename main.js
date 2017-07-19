@@ -28,7 +28,7 @@ document.querySelector(".js-userinput").addEventListener('keyup',function(e){
 
 /*2. dO THE DATA STUFF WITH THE API*/
 function createInput(input){
-	var url = "http://api.giphy.com/v1/gifs/search?q=\"" + input + "\"&api_key=dc6zaTOxFJmzC";
+	var url = "https://api.giphy.com/v1/gifs/search?q=\"" + input + "\"&api_key=dc6zaTOxFJmzC";
 
 
 // AJAX Request
